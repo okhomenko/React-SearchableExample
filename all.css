@@ -1,0 +1,11 @@
+.searchableBox {
+    border: 1px solid red;
+}
+
+.searchBar {
+    border: 1px solid blue;
+}
+
+.itemsTable {
+    border: 1px solid green;
+}
