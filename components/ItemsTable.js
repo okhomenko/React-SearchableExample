@@ -2,8 +2,10 @@
 
 var ItemsTable = React.createClass({
     render: function () {
+        var filterText = this.props.filterText;
+        var inStock = this.props.inStock;
         var items = this.props.items.map(function (item) {
-            return <ItemRow item={item} />
+            <ItemRow item={item} />
         });
         return (
             <table className="itemsTable">
