@@ -8,6 +8,7 @@ var SearchableBox = React.createClass({
         }
     },
     handleUserInput: function(opts) {
+        console.log(opts);
         this.setState(opts);
     },
     render: function () {
